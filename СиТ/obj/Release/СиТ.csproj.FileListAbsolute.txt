@@ -1,0 +1,11 @@
+C:\Users\USER\source\repos\СиТ\СиТ\bin\Release\СиТ.exe.config
+C:\Users\USER\source\repos\СиТ\СиТ\bin\Release\СиТ.exe
+C:\Users\USER\source\repos\СиТ\СиТ\bin\Release\СиТ.pdb
+C:\Users\USER\source\repos\СиТ\СиТ\obj\Release\СиТ.Form1.resources
+C:\Users\USER\source\repos\СиТ\СиТ\obj\Release\СиТ.Form2.resources
+C:\Users\USER\source\repos\СиТ\СиТ\obj\Release\СиТ.Properties.Resources.resources
+C:\Users\USER\source\repos\СиТ\СиТ\obj\Release\СиТ.csproj.GenerateResource.cache
+C:\Users\USER\source\repos\СиТ\СиТ\obj\Release\СиТ.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\СиТ\СиТ\obj\Release\СиТ.exe
+C:\Users\USER\source\repos\СиТ\СиТ\obj\Release\СиТ.pdb
+C:\Users\USER\source\repos\СиТ\СиТ\obj\Release\СиТ.csprojAssemblyReference.cache

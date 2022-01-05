@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Deflate — это алгоритм сжатия без потерь, использующий комбинацию алгоритмов Хаффмана и LZ77.
+Суть данного алгоритма сжатия заключается в последовательном сжатии двух алгоритмов: сначала Хаффмана, потом LZ77.
+
+1 этап: сжатие Хаффмана.
+На данном этапе мы имеем исходную строку. Для наглядности возьмём строку "кафедра систем автоматизированного проектирования и разработки".
+Считаем вероятность попадания каждого символа в строке и отсортируем в порядке убывания, затем, построив дерево, присвоим соответствующие коды.
+Здесь используется всего 19 символов вместо 256. Их и будем кодировать.
+
+а - 8 - 00
+и - 7 - 10
+о - 7 - 11
+р - 6 - 10000
+_ - 5 - 10001
+т - 5 - 10010
+к - 3 - 10011
+е - 3 - 10100
+в - 3 - 10101
+н - 3 - 10110
+с - 2 - 10111
+м - 2 - 11000
+з - 2 - 11001
+ф - 1 - 11010
+д - 1 -  11011
+г - 1 -  11100
+п - 1 -  11101
+я - 1 -  11110
+б - 1 -  11111
+
+Была строка:
+0000111000101110001010100000111000101110000110010000111000101111000111010000111000101110000111100000111000101110000111010000111000101111000110010
+00011100010111000011001000101000000111000101111000110100000111000101110001000010000111000101111000110100000111000101111000110110000111000101110000
+11110000011100010111000101100000101000000111000101110000110010000111000101110000110110000111000101111000110110000111000101110001011100000111000101
+11000101100000011100010111000011001000011100010111100011011000011100010111000100001000011100010111000100000000011100010111000100001000011100010111
+10001100100001110001011100010111000001110001011100001101100001110001011100001100100001110001011100010110100001110001011100010110100001110001011100
+01011100000111000101110000111000000111000101110001011100001010000001110001011100010111100001110001011110001100100001110001011100010111000001110001
+01110000111100000111000101110001010100000111000101111000110110000111000101110001000010000111000101111000110010000111000101110001011100000111000101
+11000011011000011100010111000011001000011100010111000101101000011100010111000100001000011100010111100101111000101000000111000101110001000010001010
+00000111000101111000110010000111000101110000110010000111000101110001000000000111000101111000110010000111000101110000110010000111000101110000110100
+00011100010111000101110000011100010111100011011000011100010111000101010000011100010111000100001
+
+
+После кодирования: 
+10011 00 11010 10100 11011 10000 00 10001 10111 10 10111 10010 10100 11000 10001 00 10101 10010 11 11000 00 10010 10 1100110 10000 11 10101 00 10110 10110 11 11100
+11 10001 11101 10000 11 10100 10011 10010 10 10000 11 10101 00 10110 10 11110 10001 10 10001 10000 00 1100110000 00 11111 11 10010 10011 10 
+
+
+Строка после кодирования выглядит гораздо короче, чем исходная по причине того, что при использовании алгоритма Хаффмана в алфавит входят только те 
+символы, которые появляются в строке. А в исходном двоичном коде используются все символы 8-битной кодировки Unicode.
+
+
+2 этап: сжатие методом LZ77.
+
+На данном этапе имеем строку, сжатую методом Хаффмана. Ищем цифры, посторяющиеся более 2-х раз и сворачиваем их следующим образом:
+1111 ---&gt; 1х4
+Первая цифра показывает, какие значения сворачиваются, а вторая - их количество.
+
+Применим к нашей строке:
+10011 00 11010 10100 110 1х3 0х6 1 0х3 1 10 1х4 010 1х4 0010 10100 11 0х4 0х3 11 00 10101 10010 1х4 0х5 10010 10 11001101 0х4 1х3 0101 00 10110 10110  1х5 00
+1х3 0х3 1х4 011 0х4 1х3 0100 100 1х3 0010 101 0х4 1х3 0101 00 10110 10 1х4 01001 10 1 0х3 11 0х6 110011 0х6 1х8 0010 100 1х3 0
+
+Если пройтись по таблице Unicode и закодировать это строку, то получим следующую строку:
+&#x1F;‹&#x8;А &#x4;АUјяT&#x1F;&#x12;‹—&#x5;&#x1F;cҐ&#xF;&#x5;W^ау'a‹«|&#x18;Zi Ш™jS·мMyФ юFKфДҐn&#x12;&#xF;1&gt;</value>
+  </data>
+</root>
